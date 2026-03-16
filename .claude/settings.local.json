@@ -6,7 +6,8 @@
       "Bash(cd C:/Users/vishn/Desktop/ffmpeg-wasm && npm run build 2>&1)",
       "Bash(cat C:/Users/vishn/Desktop/ffmpeg-wasm/node_modules/@ffmpeg/ffmpeg/package.json | python -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(json.dumps\\({k:d[k] for k in ['main','module','exports'] if k in d}, indent=2\\)\\)\")",
       "Bash(rm -rf C:/Users/vishn/Desktop/ffmpeg-wasm/public/ffmpeg-st C:/Users/vishn/Desktop/ffmpeg-wasm/public/ffmpeg-mt && npm run build -C C:/Users/vishn/Desktop/ffmpeg-wasm 2>&1)",
-      "Bash(npm show:*)"
+      "Bash(npm show:*)",
+      "Bash(cd C:/Users/vishn/Desktop/ffmpeg-wasm && npm install vite@^7.1.4 --save-dev 2>&1)"
     ]
   }
 }
